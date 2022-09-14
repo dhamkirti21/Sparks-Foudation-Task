@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+:root{
+    --dark-blue:#277BC0;
+    --dark-yellow:#FFB200;
+    --light-yellow:#FFCB42;
+    --pink:#FFF4CF;
+    --font-heading:'Russo One', sans-serif;
+}
+
+html,body{
+    padding:0%;
+    width: 100%;
+    margin:0%;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+.navbar{
+    background-color: var(--light-yellow);
+    
+
+    img{
+         width: 60%;
+         margin-left: 20%;
+    }
+
+    .nav-item{
+        padding: 0% 3rem;
+        font-size:1.4rem;
+        
+        a{
+            color:rgba(0,0,0,0.8);
+            font-size: 1.7rem;
+            transition: color ease-in-out 0.4s;
+            &:hover{
+                color:var(--pink);
+            }
+        }
+    }
+
+    
+}
+
+
+.heading{
+    
+    padding:3% 15%;
+    background-color: var(--light-yellow);
+    .head{
+        
+        h1{
+            font-size: 7rem;
+            font-family: var(--font-heading);
+            
+        }
+    }
+    img{
+        width: 120%;
+    }
+}
+
+#testimonials{
+    background-color:var(--dark-blue);
+    text-align: center;
+
+    .mess{
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+    .testmoninals-image{
+        width:10%;
+        border-radius: 100%;
+        margin:20px;
+    }
+    .carousel-item{
+        padding:7% 15%;
+        background-color:var(--dark-blue);
+        text-align: center;
+    }
+    em{
+        color:white;
+        font-weight: 500;
+    }
+    
+}
+
+#about{
+    text-align: center;
+    background-color: var(--pink);
+    padding: 3% 14%;
+    h1{
+        font-family: var(--font-heading);
+        font-size: 4rem;
+        margin-bottom: 3rem;
+       
+    }
+
+    p{
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 5rem;
+        font-weight: 500;
+    }
+}
+
+
+
+#donate{
+    text-align: center;
+    background-color: var(--pink);
+    padding: 3% 14%;
+    h1{
+        font-family: var(--font-heading);
+        font-size: 4rem;
+        margin-bottom: 3rem;
+       
+    }
+
+    p{
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 5rem;
+        font-weight: 500;
+    }
+}
+
+#footer{
+    text-align: center;
+    background-color: var(--dark-yellow);
+    padding:3rem;
+    line-height: 3;
+    align-items: center;
+}
+#footer>.fa-solid{
+    margin:2rem 0.6rem 0.6rem 0rem ;
+}
+#footer>.fa-brands{
+    margin:2rem 0.6rem 0.6rem 0rem;
+}
+
